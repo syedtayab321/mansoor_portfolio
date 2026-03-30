@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Download, ChevronDown, Sparkles, Code2, Gamepad2, Layers } from 'lucide-react';
 import { personalData } from '../data/personalData';
-import { iconsData } from '../data/IconData';
+import { iconsData } from '../data/iconData';
 
 const Hero: React.FC = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
